@@ -1,0 +1,95 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+/* shared styles */
+body{
+        max-width: 1140px;
+        margin: 0 auto;
+        background-color: #f3f5ff;
+}
+section{
+        margin-top: 50px;
+}
+.btn{
+        background-color: #E95A08;
+        color:white;
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+}
+.text-primary{
+        font-size: 4.20rem;
+}
+
+
+/* navbar styles */
+nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+}
+nav ul{
+        display: flex;
+        gap: 10px;
+}
+nav ul li{
+        list-style: none;
+}
+nav ul li a{
+        text-decoration: none;
+}
+/* bannar styles */
+.bannar-conatainar{
+        display: flex;
+        align-items: end;
+        text-align:start;
+        height: 461px;
+}
+.bannar-title{
+        font-size: 4.20rem;
+        font-weight: 700;
+}
+.bannar-description{
+        font-size: 1.5rem;
+}
+span{
+        color: #E95A08;
+}
+
+/* card section */
+.plant{
+        margin-bottom: 20px;
+}
+.plant{
+        text-align: center;
+}
+.cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+}
+.cards{
+        align-items: center;
+        text-align: center;
+}
+
+
+/* Flower section style */
+.flower{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+}
+.flower-description{
+        font-size: 1.50;
+}
+
+/* media queari  */
+@media screen and (max-width: 576px) {
+        nav{
+                display: hide;
+        }
+       
+        
+}
