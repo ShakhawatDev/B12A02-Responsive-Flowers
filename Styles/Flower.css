@@ -45,3 +45,29 @@ a:hover{
     margin: 120px auto;
     align-items: end;
 }
+
+/* our plants section style */
+.plant-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 4rem auto;
+    gap: 20px;
+
+}
+.plant-card-container img{
+    margin-bottom: 30px;
+}
+.plant-card-container .btn{
+    margin-top: 30px;
+}
+.lover{
+    gap: 60px;
+    position: relative;
+    align-items: center;
+    margin: 120px auto;
+}
+.lover li{
+    margin-bottom: 20px;
+    list-style: disc;
+    margin-left: 30px;
+}
