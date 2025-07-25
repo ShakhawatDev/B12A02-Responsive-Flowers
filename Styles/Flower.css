@@ -165,3 +165,88 @@ footer{
     width: 36px;
     height: 36px;
 }
+
+/* responsive for small device */
+@media screen and (max-width: 576px) {
+    .logo{
+        max-width: 4rem;
+        margin-right: -40px;
+        margin-left: 10px;
+    }
+    .nav{
+        margin-top: 20px;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .nav-item{
+        display: none;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        margin: 20px auto;
+    }
+    .hero-content{
+        padding: 10px;
+    }
+    h1, h2{
+        font-size: 1.5rem;
+    }
+    p, .lover li{
+        font-size: 0.9rem;
+    }
+    .plants p{
+        margin: 10px;
+    }
+    .plant-card-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+        gap: 10px;
+    }
+    .btn{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .trasted-badge{
+        display: none;
+    }
+    .lover{
+        flex-direction: column;
+        margin: 10px;
+        gap: 20px;
+    }
+    .lover h2{
+        margin-bottom: 10px;
+    }
+    .Deals{
+        padding: 10px;
+    }
+    .deals-card-container{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .deals-card-container h5{
+        font-size: 1.25rem;
+    }
+    .deals-card-container a{
+        font-size: 1rem;
+    }
+    .join-section{
+        aspect-ratio: 16 / 9;
+    }
+    .join-section input{
+        width: 60%;
+    }
+    .join-section button{
+        padding: 15px 20px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    .manu p{
+    margin-bottom: 1rem;
+    }
+
+}
