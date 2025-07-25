@@ -1,34 +1,189 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./Styles/Flower.css">
-        <title>Flower-Market</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- tailwind css cdn link -->
+
+    <script src="https://kit.fontawesome.com/f4485066ab.js" crossorigin="anonymous"></script>
+    <!-- font awesome kid link -->
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- google font link for font family inter and noto serif -->
+
+    <title>Faugei | Flowers Shop</title>
 </head>
-<body >
-        <header>
-                <nav>
-                        <img src="./assets/logo.png" alt="Faugei Flower " class="logo">
-                        <ul>
-                                <li><a href="">Home</a></li>
-                                <li><a href="">Shop</a></li>
-                                <li><a href="">About us</a></li>
-                                <div>
-                                <li><a href=""><icon> </icon>Cart(56$)</a></li>
-                                </div>
-                        </ul>
-                </nav>
-                <div class="bannar-conatainar">
-                        <div class="banner-contant">
-                                <h1 class="bannar-title">Always <span>Fresha <br>Flower</span> </h1>
-                                <p class="bannar-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
-                        </div>
-                        <img src="./assets/hero-flower.png" alt="some flower" class="bannar-img">
+<body class="inter">
+
+    <nav class="nav container flex justify-between">
+        <img class="logo" src="./assets/logo.png" alt="faugei logo">
+<!-- logo size may need to change on small screen responsive -->
+        <ul class="nav-menu flex align-center">
+            <a href="#">
+                <li class="nav-item">Home</li></a>
+            <a href="#">
+                <li class="nav-item text-[#8987A1] hover:text-white">Shop</li></a>
+            <a href="#">
+                <li class="nav-item text-[#8987A1] hover:text-white">About us</li></a>
+            <a href="#">
+                <li class="nav-item2 flex items-center gap-3">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>Cart ($56)</p>
+                </li></a>
+        </ul>
+    </nav>
+
+    <section class="hero container flex">
+        <div class="hero-content">
+            <h1 class="noto-serif text-[4rem] font-bold">ALWAYS <span class="text-[#E95A08]">FRESH <br> FLOWERS</span></h1>
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        </div>
+        <img src="./assets/hero-flower.png" alt="">
+    </section>
+
+    <section class="plants container">
+        <h2 class="noto-serif text-[3.15rem] font-bold text-center"><span class="text-[#E95A08]">Our</span> Plants</h2>
+        <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem] text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        <div class="plant-card-container">
+            <div class="plant-card text-center grid place-items-center">
+                <img src="./assets/sample-flower-image.png" alt="">
+                <h5 class="text-[1.45rem] font-medium">Lily Blossom</h5>
+                <h5 class="text-[1.45rem] font-bold">20 USD</h5>
+                <button class="btn bg-[#E95A08]">ADD TO CART</button>
+            </div>
+            <div class="plant-card text-center grid place-items-center">
+                <img src="./assets/sample-flower-image.png" alt="">
+                <h5 class="text-[1.45rem] font-medium">Lily Blossom</h5>
+                <h5 class="text-[1.45rem] font-bold">20 USD</h5>
+                <button class="btn bg-[#E95A08]">ADD TO CART</button>
+            </div>
+            <div class="plant-card text-center grid place-items-center">
+                <img src="./assets/sample-flower-image.png" alt="">
+                <h5 class="text-[1.45rem] font-medium">Lily Blossom</h5>
+                <h5 class="text-[1.45rem] font-bold">20 USD</h5>
+                <button class="btn bg-[#E95A08]">ADD TO CART</button>
+            </div>
+            <div class="plant-card text-center grid place-items-center">
+                <img src="./assets/sample-flower-image.png" alt="">
+                <h5 class="text-[1.45rem] font-medium">Lily Blossom</h5>
+                <h5 class="text-[1.45rem] font-bold">20 USD</h5>
+                <button class="btn bg-[#E95A08]">ADD TO CART</button>
+            </div>
+            <div class="plant-card text-center grid place-items-center">
+                <img src="./assets/sample-flower-image.png" alt="">
+                <h5 class="text-[1.45rem] font-medium">Lily Blossom</h5>
+                <h5 class="text-[1.45rem] font-bold">20 USD</h5>
+                <button class="btn bg-[#E95A08]">ADD TO CART</button>
+            </div>
+            <div class="plant-card text-center grid place-items-center">
+                <img src="./assets/sample-flower-image.png" alt="">
+                <h5 class="text-[1.45rem] font-medium">Lily Blossom</h5>
+                <h5 class="text-[1.45rem] font-bold">20 USD</h5>
+                <button class="btn bg-[#E95A08]">ADD TO CART</button>
+            </div>
+            <div class="plant-card text-center grid place-items-center">
+                <img src="./assets/sample-flower-image.png" alt="">
+                <h5 class="text-[1.45rem] font-medium">Lily Blossom</h5>
+                <h5 class="text-[1.45rem] font-bold">20 USD</h5>
+                <button class="btn bg-[#E95A08]">ADD TO CART</button>
+            </div>
+            <div class="plant-card text-center grid place-items-center">
+                <img src="./assets/sample-flower-image.png" alt="">
+                <h5 class="text-[1.45rem] font-medium">Lily Blossom</h5>
+                <h5 class="text-[1.45rem] font-bold">20 USD</h5>
+                <button class="btn bg-[#E95A08]">ADD TO CART</button>
+            </div>
+        </div>
+    </section>
+    
+    <Section class="container flex">
+        <div class="lover flex">
+            <img src="./assets/flower-store.png" alt="">
+            <div class="lover-content">
+                <h2 class="noto-serif text-[3.15rem] font-bold">Flower & Plants Lover</h2>
+                <ul class="text-[rgba(0,0,0,0.5)] text-[1.4rem]">
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                </ul>
+            </div>
+        </div>
+        <img class="trasted-badge" src="./assets/trusted-badge.png" alt="">
+    </Section>
+
+    <section class="Deals container">
+        <h2 class="noto-serif text-[3.15rem] font-bold text-center"><span class="text-[#E95A08]">Latest</span> Deals</h2>
+        <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem] text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div class="deals-card-container">
+                <div class="left">
+                    <div class="Deals-card card1">
+                        <h5 class="noto-serif text-[1.25rem]">60% Off | Bloom Plant</h5>
+                        <p><a class="text-center" href="#">Shop Now</a></p>
+                    </div>
+                    <div class="Deals-card card3">
+                    <h5 class="noto-serif text-[1.25rem]">50% Off | Ana Plant</h5>
+                    <p><a class="text-center" href="#">Shop Now</a></p>
                 </div>
-        </header>
-      
+                </div>
+                
+                
+                <div class="Deals-card card2">
+                    <h5 class="noto-serif text-[2.5rem]">25% Off | Zabo Plant</h5>
+                    <p><a class="text-center  text-[1.75rem]" href="#">Shop Now</a></p>
+                </div>
+            </div>
+    </section>
 
+    <section class="join-section text-center text-white">
+        <h2 class="noto-serif text-[3rem] font-bold">Join the colorful Bunch</h2>
+        <div class="join-content">
+            <input type="email" name="email" id="email" placeholder="Write email" class="text-[rgba(0,0,0,0.5)]">
+            <button>Subscribe</button>
+        </div>
+    </section>
 
+    <footer class="container flex">
+        <div class="company">
+            <img src="./assets/logo.png" alt="">
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop. 
+            </p>
+        </div>
+        <div class="manu">
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]"><a href="#">Home</a></p>
+
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]"><a href="#">About us</a></p>
+
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]"><a href="#">Blog</a></p>
+
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]"><a href="#">FAQ</a></p>
+
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]"><a href="#">Contact us</a></p>
+        </div>
+
+        <div class="manu">
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]"><a href="#">Features</a></p>
+
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]"><a href="#">Pricing</a></p>
+
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]"><a href="#">Privacy Policy</a></p>
+
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]"><a href="#">Terms of Service</a></p>
+
+            <p class="text-[rgba(0,0,0,0.5)] text-[1.4rem]"><a href="#">Help Center</a></p>
+        </div>
+
+        <div class="social-link flex">
+            <img src="./assets/icon-linkedin.png" alt="">
+            <img src="./assets/icon-twitter.png" alt="">
+            <img src="./assets/icon-facebook.png" alt="">
+            <img src="./assets/icon-youtube.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>

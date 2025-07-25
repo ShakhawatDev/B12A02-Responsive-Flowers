@@ -64,6 +64,9 @@ span{
 .plant{
         text-align: center;
 }
+.description{
+        text-align: center;
+}
 .cards{
         display: flex;
         flex-wrap: wrap;
@@ -78,6 +81,7 @@ span{
 /* Flower section style */
 .flower{
         display: flex;
+        justify-content: center;
         align-items: center;
         gap: 50px;
 }
@@ -88,7 +92,7 @@ span{
 /* media queari  */
 @media screen and (max-width: 576px) {
         nav{
-                display: hide;
+                display: none;
         }
        
         
