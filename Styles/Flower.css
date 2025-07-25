@@ -31,3 +31,17 @@ a:hover{
     color: white !important;
     border-radius: 5px;
 }
+
+
+/* header related style */
+.nav{
+    margin: 30px auto;
+}.nav-menu{
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+}
+.hero{
+    margin: 120px auto;
+    align-items: end;
+}
